@@ -1,0 +1,113 @@
+/* Estiliza a seção principal do formulário */
+.formulario {
+  padding: 40px 20px; /* Espaçamento interno */
+  display: flex; /* Permite alinhar elementos lado a lado ou centralizar */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.formulario .interface {
+  max-width: 500px;
+}
+/* Container interno com largura máxima */
+.interface {
+  width: 100%; /* Ocupa 100% do espaço disponível */
+  display: flex; /* Flexbox ativado */
+  flex-direction: column; /* Organiza os elementos em coluna */
+  gap: 20px; /* Espaçamento entre os elementos filhos */
+}
+
+/* Estiliza o título da confirmação */
+.titulo-confirmacao {
+  font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
+  font-size: 40px; /* Tamanho grande */
+  text-align: center; /* Centraliza o texto */
+  color: #fff; /* Cor marrom suave */
+}
+
+/* Estiliza o texto de introdução */
+.interface p {
+  text-align: center; /* Centraliza o parágrafo */
+  font-size: 30px; /* Tamanho padrão */
+  color: #fff; /* Cor de texto escura */
+  margin-bottom: 10px; /* Espaço abaixo do parágrafo */
+}
+
+/* Estilização do formulário */
+form {
+  display: flex; /* Flexbox para organizar os campos */
+  flex-direction: column; /* Um campo embaixo do outro */
+  gap: 15px; /* Espaço entre os campos */
+}
+
+/* Estiliza todos os inputs e selects do formulário */
+form input,
+form select {
+  padding: 10px; /* Espaço interno dentro do campo */
+  font-size: 16px; /* Tamanho da fonte */
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 6px; /* Cantos arredondados */
+}
+
+/* Agrupamento do campo com ícones ao lado */
+.campo-acompanhante {
+  display: flex; /* Alinha o input e os ícones lado a lado */
+  align-items: center; /* Alinha verticalmente no centro */
+  gap: 10px; /* Espaço entre o input e os botões */
+}
+
+/* Estiliza o campo de nome do acompanhante */
+.campo-acompanhante input {
+  flex: 1; /* Faz o input ocupar o máximo de espaço possível */
+  padding: 10px; /* Espaço interno */
+  font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Container dos ícones (botões de adicionar e remover) */
+.icones {
+  display: flex; /* Alinha os ícones lado a lado */
+  gap: 6px; /* Espaço entre os botões */
+}
+
+/* Estiliza os botões de ícone (adicionar e remover) */
+.icones button {
+  background: none; /* Sem fundo */
+  border: none; /* Sem borda */
+  cursor: pointer; /* Muda o cursor ao passar por cima */
+  font-size: 18px; /* Tamanho dos ícones */
+  padding: 6px; /* Espaço interno */
+  display: flex; /* Flexbox para centralizar o ícone */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  transition: .2s;
+  color: #fff;
+}
+
+/* Animação de leve aumento no hover dos botões */
+.icones button:hover {
+  transform: scale(1.1); /* Aumenta o botão levemente */
+}
+
+/* Estiliza o botão de envio do formulário */
+button[type="submit"] {
+  background-color: #c79c60; /* Cor de fundo dourada */
+  color: #fff; /* Cor do texto branca */
+  font-size: 18px; /* Tamanho do texto */
+  padding: 12px; /* Espaço interno */
+  border: none; /* Remove borda */
+  border-radius: 6px; /* Cantos arredondados */
+  cursor: pointer; /* Mostra mãozinha ao passar por cima */
+  transition: 0.2s; /* Animação suave na cor */
+}
+
+/* Quando passa o mouse por cima do botão de envio */
+button[type="submit"]:hover {
+  background-color: #a37845; /* Dourado mais escuro */
+}
+
+form .label-acompanhantes,
+ .label-evento {
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
+ }

@@ -1,0 +1,39 @@
+h1.titulo-home{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+p.traco-home{
+    width: 300px;
+    border-bottom: 5px solid #fff;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h2.data-home{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.topo-do-site {
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1020px){
+    .menuSlidebar{
+        display: none;
+    }
+    .interface{
+        flex-direction: column;
+    }
+    h1.titulo-home{
+        font-size: 30px;
+    }
+    p.traco-home{
+        width: 150px;
+    }
+}

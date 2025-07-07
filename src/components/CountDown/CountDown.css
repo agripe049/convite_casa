@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.interface {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contador {
+    margin-top: 460px;
+}
+.contador-unidades {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.contador h1{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.unidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numero{
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.rotulo{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
