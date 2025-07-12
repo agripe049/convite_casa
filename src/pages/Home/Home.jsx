@@ -1,12 +1,14 @@
 import CountDown from "../../components/CountDown/CountDown";
 import "./Home.css"
 import ConfirmePresenca from "../ConfirmePresenca/ConfirmePresenca"
+import MenuMobile from "../../components/menuMobile/MenuMobile";
 
 function Home() {
   return (
     <div>
       <div className="topo-do-site">
         <div className="interface">
+          <MenuMobile />
           <h1 className="titulo-home">
             LUIS MIGUEL & EMANUELLY
           </h1>
