@@ -3,13 +3,14 @@ h1.titulo-home{
     font-size: 50px;
     text-align: center;
     margin-top: 300px;
+    padding: 0 20px;
+    word-break: break-word;
 }
 
 p.traco-home{
     width: 300px;
     border-bottom: 5px solid #fff;
-    margin: 0 auto;
-    margin-top: 10px;
+    margin: 10px 0 auto;
 }
 
 h2.data-home{
@@ -21,6 +22,7 @@ h2.data-home{
 
 .topo-do-site {
     margin-bottom: 120px;
+    padding: 0 20px;
 }
 
 @media screen and (max-width: 1020px){
@@ -29,11 +31,16 @@ h2.data-home{
     }
     .interface{
         flex-direction: column;
+        align-items: center;
     }
     h1.titulo-home{
-        font-size: 30px;
+        font-size: 38px;
+        margin-top: 200px;
     }
     p.traco-home{
-        width: 150px;
+        width: 200px;
+    }
+    h2.data-home{
+        font-size: 32px;
     }
 }

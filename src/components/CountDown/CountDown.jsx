@@ -23,7 +23,7 @@ function CountDown() {
                     minutes: 0,
                     seconds: 0,
                 });
-                setIsWeddingDay(true);
+                setIsWeddingDay(true); 
                 return;
             }
 

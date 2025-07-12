@@ -4,7 +4,7 @@
 .interface {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 .contador {
     margin-top: 460px;
@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     gap: 80px;
+    flex-wrap: wrap;
 }
 
 .contador h1{
@@ -37,4 +38,25 @@
     color: #fff;
     margin-top: 10px;
     font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 1020px){
+    .contador {
+        margin-top: 200px;
+        padding: 0 20px;
+    }
+    .contador-unidades{
+        gap: 40px;
+    }
+
+    .numero {
+        font-size: 60px;
+    }
+    .rotulo {
+        font-size: 16px;
+    }
+    .contador h1 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
 }
