@@ -1,6 +1,7 @@
 import CountDown from "../../components/CountDown/CountDown";
 import "./Home.css"
 import ConfirmePresenca from "../ConfirmePresenca/ConfirmePresenca"
+import { IoLocationOutline } from "react-icons/io5";
 
 function Home() {
   return (
@@ -17,8 +18,15 @@ function Home() {
           {/* Contador */}
           <CountDown />
           <h2 className="data-home">
-            30 DE MAIO DE 2026
+            11 DE JANEIRO DE 2026
           </h2>
+          <a 
+            className="local" 
+            href="https://maps.app.goo.gl/cFLXiKa9piHuk3gG7?g_st=ac"
+            target="_blank"
+          >
+            LOCALIZAÇÃO <IoLocationOutline />
+          </a>
         </div>
       </div>
       <ConfirmePresenca />

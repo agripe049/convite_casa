@@ -29,8 +29,23 @@ h2.data-home{
 .topo-do-site {
     margin-bottom: 250px;
     padding: 0 20px;
-    
 }
+
+.interface a.local{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s;
+    margin-top: 110px;
+    color: #fff;
+    gap: 8px;
+    font-size: 34px;
+}
+
+.interface a.local:hover{
+    color: #999;
+}
+
 
 @media screen and (max-width: 1020px){
     .menuSlidebar{
