@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./CountDown.css";
 
 function CountDown() {
-    const weddingDate = new Date("2026-05-30T16:00:00"); // Data do casamento
+    const weddingDate = new Date("2026-01-11T16:00:00"); // Data do casamento
 
     // Estado para armazenar o tempo restante
     const [timeLeft, setTimeLeft] = useState({});
