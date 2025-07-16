@@ -38,6 +38,10 @@ form {
   display: flex; /* Flexbox para organizar os campos */
   flex-direction: column; /* Um campo embaixo do outro */
   gap: 15px; /* Espaço entre os campos */
+  margin-top: 50px;
+}
+p.faca-confirme{
+  margin-top: 50px;
 }
 
 /* Estiliza todos os inputs e selects do formulário */
@@ -47,45 +51,6 @@ form select {
   font-size: 16px; /* Tamanho da fonte */
   border: 1px solid #ccc; /* Borda cinza clara */
   border-radius: 6px; /* Cantos arredondados */
-}
-
-/* Agrupamento do campo com ícones ao lado */
-.campo-acompanhante {
-  display: flex; /* Alinha o input e os ícones lado a lado */
-  align-items: center; /* Alinha verticalmente no centro */
-  gap: 10px; /* Espaço entre o input e os botões */
-}
-
-/* Estiliza o campo de nome do acompanhante */
-.campo-acompanhante input {
-  flex: 1; /* Faz o input ocupar o máximo de espaço possível */
-  padding: 10px; /* Espaço interno */
-  font-size: 16px; /* Tamanho da fonte */
-}
-
-/* Container dos ícones (botões de adicionar e remover) */
-.icones {
-  display: flex; /* Alinha os ícones lado a lado */
-  gap: 6px; /* Espaço entre os botões */
-}
-
-/* Estiliza os botões de ícone (adicionar e remover) */
-.icones button {
-  background: none; /* Sem fundo */
-  border: none; /* Sem borda */
-  cursor: pointer; /* Muda o cursor ao passar por cima */
-  font-size: 18px; /* Tamanho dos ícones */
-  padding: 6px; /* Espaço interno */
-  display: flex; /* Flexbox para centralizar o ícone */
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: center; /* Centraliza horizontalmente */
-  transition: .2s;
-  color: #fff;
-}
-
-/* Animação de leve aumento no hover dos botões */
-.icones button:hover {
-  transform: scale(1.1); /* Aumenta o botão levemente */
 }
 
 /* Estiliza o botão de envio do formulário */
@@ -111,3 +76,6 @@ form .label-acompanhantes,
   font-size: 24px;
   font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
  }
+ .formulario {
+  min-height: calc(100vh - 80px); /* 100% da tela menos a altura do header e do footer */
+}

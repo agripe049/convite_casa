@@ -4,6 +4,7 @@ import SlideBar from "../components/SlideBar/SlideBar";
 import ConfirmePresenca from "../pages/ConfirmePresenca/ConfirmePresenca";
 import NossaHistoria from "../pages/NossaHistoria/NossaHistoria";
 import Presentes from "../pages/Presentes/Presentes";
+import Footer from "../components/Footer/Footer";
 
 function AppRoutes() {
   return (
@@ -16,6 +17,7 @@ function AppRoutes() {
                 <Route path="/presentes" element={<Presentes />}/>
                 <Route path="/nossa-historia" element={<NossaHistoria />}/>
             </Routes>
+            <Footer />
         </Router>
     </div>
   )

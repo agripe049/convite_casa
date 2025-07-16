@@ -1,7 +1,7 @@
 .interface p.monograma {
   font-family: 'Great Vibes', cursive;
   font-size: 80px;
-  color: #fff; /* VERDE CHOCANTE para teste */
+  color: #fff; /* VERDE CHOCANTE para teste 2b4735 */
   margin-top: 300px;
 }
 
@@ -33,7 +33,7 @@ h2.data-home{
 
 .interface a.local{
     display: inline-flex;
-    align-items: center;
+    align-items: center; 
     text-decoration: none;
     transition: .2s;
     margin-top: 110px;
