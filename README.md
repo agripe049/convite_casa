@@ -1,16 +1,53 @@
-<<<<<<< HEAD
-# convite_casa
-=======
-# React + Vite
+# 💌 Site de Convite de Casamento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto está em desenvolvimento e tem como objetivo criar um **site de convite de casamento personalizado**, onde os convidados poderão visualizar informações do evento, confirmar presença e até acessar um QR Code para envio de presentes via Pix ou acessar uma lista de presentes online.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚧 Status do projeto
 
-## Expanding the ESLint configuration
+🛠️ **Em desenvolvimento**  
+Atualmente estou trabalhando nas seguintes funcionalidades:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 888dfd0 (Primeiro commit do site de casamento)
+- Página inicial com contagem regressiva para o casamento
+- Exibição do local da cerimônia e recepção
+- Confirmação de presença com envio de e-mail
+- Integração com QR Code Pix e/ou lista de presentes
+
+---
+
+## ✨ Objetivos
+
+Este projeto tem o objetivo de:
+
+- Praticar React com manipulação de formulários
+- Trabalhar com envio de e-mails via EmailJS
+- Criar uma experiência responsiva e visualmente atraente
+- Estimular o uso de dados dinâmicos no frontend
+
+---
+
+## 🛠️ Tecnologias em uso
+
+- React.js
+- EmailJS
+- CSS3
+- HTML5
+- JavaScript (ES6+)
+
+---
+
+## 🔧 Como rodar o projeto localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/agripe049/convite_casa.git
+
+# Acesse o diretório
+cd convite_casa
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm start
