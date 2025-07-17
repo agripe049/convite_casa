@@ -15,6 +15,8 @@ function ConfirmePresenca() {
     const templateParams = {
       name: data.name,
       confirmacao: data.confirmacao,
+      to_email: "goncalvesmiguelluis@gmail.com,emanuelyzaneboni@gmail.com,agripeheber@gmail.com",
+      reply_to: data.emailUsuario  // o e-mail que o usuário preencheu no formulário
     };
 
     emailjs.send(
