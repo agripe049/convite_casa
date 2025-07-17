@@ -19,13 +19,13 @@ function SlideBar() {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/confirme-presenca">
-                                <h2>Confirme Presença</h2>
+                             <Link to="/presentes">
+                                <h2>Presentes</h2>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/presentes">
-                                <h2>Presentes</h2>
+                             <Link to="/confirme-presenca">
+                                <h2>Confirme Presença</h2>
                             </Link>
                         </li>
                         <li> 

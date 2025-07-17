@@ -13,7 +13,7 @@ function Home() {
             LE
           </p>
           <h1 className="titulo-home">
-            EMANUELLY & LUIS MIGUEL
+            EMANUELY & LUIS MIGUEL
           </h1>
           <p className="traco-home"></p>
           {/* Contador */} 
@@ -30,8 +30,8 @@ function Home() {
           </a>
         </div>
       </div>
-      <ConfirmePresenca />
       <Presentes />
+      <ConfirmePresenca />
     </div>
   )
 }

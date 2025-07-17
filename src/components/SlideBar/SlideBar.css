@@ -17,14 +17,17 @@ header {
     margin: 0;
     padding: 0;
 }
-
-.menuSlidebar li a{
-    text-decoration: none;
+.menuSlidebar li a h2 {
     color: #ffffff;
     transition: .2s;
     font-size: 20px;
 }
 
-.menuSlidebar li a:hover{
+.menuSlidebar li a h2:hover {
     color: #999;
 }
+
+.menuSlidebar li a{
+    text-decoration: none;
+}
+
