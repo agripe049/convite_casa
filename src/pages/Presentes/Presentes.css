@@ -1,3 +1,59 @@
 .interface-presentes{
     min-height: calc(100vh - 80px); 
 }
+
+.interface-presentes {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.interface-presentes h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.interface-presentes p, h2 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.interface-presentes h1 a:hover {
+  text-decoration: underline;
+}
+
+.interface-presentes pre{
+    
+}
+
+.qr-code {
+  margin: 20px 0;
+  max-width: 250px;
+  width: 100%;
+}
+
+.codigo-pix {
+  background-color: #f4f4f4;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  user-select: all;
+}
+
+.botao-copiar {
+  background-color: #8888;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.botao-copiar:hover {
+  background-color: #999;
+}
