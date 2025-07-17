@@ -2,6 +2,7 @@ import CountDown from "../../components/CountDown/CountDown";
 import "./Home.css"
 import ConfirmePresenca from "../ConfirmePresenca/ConfirmePresenca"
 import { IoLocationOutline } from "react-icons/io5";
+import Presentes from "../Presentes/Presentes";
 
 function Home() {
   return (
@@ -30,6 +31,7 @@ function Home() {
         </div>
       </div>
       <ConfirmePresenca />
+      <Presentes />
     </div>
   )
 }

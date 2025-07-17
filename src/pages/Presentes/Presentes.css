@@ -13,6 +13,9 @@
     color: #fff;
     text-decoration: none;
 }
+.interface-presentes .link-lista{
+    margin-top: 100px;
+}
 
 .interface-presentes p, h2 {
     color: #fff;
@@ -56,4 +59,13 @@
 
 .botao-copiar:hover {
   background-color: #999;
+}
+
+.interface-presentes .titulo-presentes{
+    color: #fff;
+    font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
+    font-size: 40px;
+}
+.interface-presentes{
+    font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
 }

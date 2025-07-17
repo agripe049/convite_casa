@@ -16,7 +16,9 @@ function Presentes() {
   return (
     <div className="interface-presentes">
 
-      <h1>
+      <h1 className="titulo-presentes">Lista de Presentes</h1>
+
+      <h1 className="link-lista">
         <a href="" target="_blank" rel="noopener noreferrer">
           Clique aqui para ver nossa lista de presentes!
         </a>
