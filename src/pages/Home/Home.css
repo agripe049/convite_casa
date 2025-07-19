@@ -2,7 +2,7 @@
   font-family: 'Great Vibes', cursive;
   font-size: 80px;
   color: #fff; /* VERDE CHOCANTE para teste 2b4735 */
-  margin-top: 300px;
+  margin-top: 150px;
 }
 
 
@@ -10,7 +10,7 @@ h1.titulo-home{
     color: #fff;
     font-size: 35px;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 20px; 
     word-break: break-word;
 }
 
@@ -27,7 +27,7 @@ h2.data-home{
 }
 
 .topo-do-site {
-    margin-bottom: 250px;
+    margin-bottom: 100px;
     padding: 0 20px;
 }
 
@@ -36,7 +36,7 @@ h2.data-home{
     align-items: center; 
     text-decoration: none;
     transition: .2s;
-    margin-top: 110px;
+    margin-top: 60px;
     color: #fff;
     gap: 8px;
     font-size: 34px;
@@ -57,12 +57,12 @@ h2.data-home{
     }
     h1.titulo-home{
         font-size: 38px;
-        margin-top: 200px;
     }
     p.traco-home{
         width: 200px;
     }
     h2.data-home{
         font-size: 32px;
+        margin-top: 10  0px;
     }
 }

@@ -16,7 +16,7 @@ function Home() {
             EMANUELY & LUIS MIGUEL
           </h1>
           <p className="traco-home"></p>
-          {/* Contador */} 
+          {/* Contador */}  
           <CountDown />
           <h2 className="data-home">
             11 DE JANEIRO DE 2026
