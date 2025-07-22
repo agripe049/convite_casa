@@ -22,8 +22,8 @@ p.traco-home{
 h2.data-home{
     color: #fff;
     text-align: center;
-    font-size: 40px;
-    margin-top: 30px;
+    font-size: 30px;
+    margin-top: 80px;
 }
 
 .topo-do-site {
@@ -65,4 +65,12 @@ h2.data-home{
         font-size: 32px;
         margin-top: 10  0px;
     }
+    .topo-do-site{
+        margin-top: 60px;
+    }
+     body {
+        background-position: center top;
+        background-size: cover;
+        background-attachment: scroll;
+  }
 }

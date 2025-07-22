@@ -1,4 +1,3 @@
-import CountDown from "../../components/CountDown/CountDown";
 import "./Home.css"
 import ConfirmePresenca from "../ConfirmePresenca/ConfirmePresenca"
 import { IoLocationOutline } from "react-icons/io5";
@@ -17,7 +16,6 @@ function Home() {
           </h1>
           <p className="traco-home"></p>
           {/* Contador */}  
-          <CountDown />
           <h2 className="data-home">
             11 DE JANEIRO DE 2026
           </h2>

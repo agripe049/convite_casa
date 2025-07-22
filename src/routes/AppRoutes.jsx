@@ -5,6 +5,7 @@ import ConfirmePresenca from "../pages/ConfirmePresenca/ConfirmePresenca";
 import NossaHistoria from "../pages/NossaHistoria/NossaHistoria";
 import Presentes from "../pages/Presentes/Presentes";
 import Footer from "../components/Footer/Footer";
+import ListaConfirmados from "../pages/ListaConfirmados/ListaConfirmados";
 
 function AppRoutes() {
   return (
@@ -16,6 +17,7 @@ function AppRoutes() {
                 <Route path="/confirme-presenca" element={<ConfirmePresenca />}/>
                 <Route path="/presentes" element={<Presentes />}/>
                 <Route path="/nossa-historia" element={<NossaHistoria />}/>
+                <Route path="/presenca-confirmada-864vbd34kjf43v" element={<ListaConfirmados /> }/>
             </Routes>
             <Footer />
         </Router>

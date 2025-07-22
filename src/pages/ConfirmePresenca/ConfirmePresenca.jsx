@@ -1,12 +1,14 @@
 import emailjs from "@emailjs/browser";   // Biblioteca do EmailJS importada
 import { useRef } from "react";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "../../services/FirebaseConfig";
 import "./ConfirmePresenca.css"
 
 function ConfirmePresenca() {
   const form = useRef(); // Referência ao formulário
 
   // Envia o e-mail com os dados do formulário
-  const enviarEmail = (e) => {
+  const enviarEmail = async (e) => {
     e.preventDefault(); // Impede o reload da pa´gina
 
     const formData = new FormData(form.current); // Captura dados do formulário
@@ -19,21 +21,27 @@ function ConfirmePresenca() {
       reply_to: data.emailUsuario  // o e-mail que o usuário preencheu no formulário
     };
 
-    emailjs.send(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-      templateParams,
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-    )
-      .then(() => {
-        alert("Confirmação enviada com sucesso!");
-        form.current.reset();// Limpa os campos do formulário 
-      })
-      .catch((error) => {
-        console.error("Erro ao enviar:", error);
-        alert("Ocorreu um erro ao enviar a confirmação.");
+    try {
+      // Envia o email
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+
+      //Salva os dados no firestore
+      await addDoc(collection(db, "confirmacoes"), {
+        nome: data.name, confirmacao: data.confirmacao
       });
-  }
+
+      alert("Confirmação enviada com sucesso!");
+      form.current.reset();// Limpa os campos do formulário 
+    } catch (error) {
+      console.error("Erro ao enviar:", error);
+      alert("Ocorreu um erro ao enviar a confirmação.");
+    }
+  };
 
   return (
     <div>
@@ -46,7 +54,7 @@ function ConfirmePresenca() {
           <p className="faca-confirme">Faça parte da nossa história de amor, confirme sua presença</p>
           <form ref={form} onSubmit={enviarEmail} className="form-confirme">
             <input type="text" name="name" placeholder="Nome completo" required />
-    
+
             <label className="label-evento">Você irá ao evento?</label>
             <select name="confirmacao" required>
               <option value="">Selecione uma opção</option>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Presentes.css";
 import qrcode from "../../assets/qrcode.jpeg";
+import { AiOutlineGift } from "react-icons/ai";
 
 function Presentes() {
   const chavePix = "goncalvesmiguelluis@gmail.com";
@@ -16,11 +17,12 @@ function Presentes() {
   return (
     <div className="interface-presentes">
 
-      <h1 className="titulo-presentes">Lista de Presentes</h1>
+      <h1 className="titulo-presentes">LISTA DE PRESENTES</h1>
 
       <h1 className="link-lista">
-        <a href="" target="_blank" rel="noopener noreferrer">
-          Clique aqui para ver nossa lista de presentes!
+        <a href="https://noivos.casar.com/luis-e-emanuely" target="_blank">
+          Clique aqui para ver nossa lista de presentes 
+          <AiOutlineGift  className="icon-presente"/>
         </a>
       </h1>
 
