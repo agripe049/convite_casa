@@ -26,6 +26,11 @@ h2.data-home{
     margin-top: -20px;
     margin-bottom: 30px;
 }
+.interface p.horario{
+    text-align: center;
+    font-size: 26px;
+    margin-top: -40px;
+}
 
 .topo-do-site {
     margin-bottom: 100px;

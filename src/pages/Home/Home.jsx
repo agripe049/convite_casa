@@ -19,6 +19,9 @@ function Home() {
           <h2 className="data-home">
             11 DE JANEIRO DE 2026
           </h2>
+          <p className="horario">
+              as 15:30h
+          </p>
           <p className="bem-vindo">
             Bem-vindo(a) ao nosso site! <br />
             Aqui você encontra a localização do casamento, nossa lista de presentes,<br /> confirmação de presença e todos os detalhes importantes para o grande dia!
