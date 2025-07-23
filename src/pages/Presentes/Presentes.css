@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 .interface-presentes .link-lista{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .interface-presentes p, h2 {
@@ -32,7 +32,7 @@
     align-items: center;
     gap: 6px;
 }
-
+ 
 .qr-code {
   margin: 20px 0;
   max-width: 250px;
@@ -68,6 +68,7 @@
     font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
     font-size: 40px;
 }
+
 .interface-presentes{
     font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
 }

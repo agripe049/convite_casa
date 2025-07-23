@@ -4,13 +4,13 @@
   display: flex; /* Permite alinhar elementos lado a lado ou centralizar */
   justify-content: center; /* Centraliza o conteúdo horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-}
+} 
 
 .formulario .interface {
   max-width: 500px;
 }
 /* Container interno com largura máxima */
-.interface {
+.interface { 
   width: 100%; /* Ocupa 100% do espaço disponível */
   display: flex; /* Flexbox ativado */
   flex-direction: column; /* Organiza os elementos em coluna */
@@ -25,12 +25,14 @@
   color: #fff; /* Cor marrom suave */
 }
 
+
 /* Estiliza o texto de introdução */
 .interface p {
   text-align: center; /* Centraliza o parágrafo */
   font-size: 30px; /* Tamanho padrão */
   color: #fff; /* Cor de texto escura */
   margin-bottom: 10px; /* Espaço abaixo do parágrafo */
+
 }
 
 /* Estilização do formulário */
@@ -78,4 +80,10 @@ form .label-acompanhantes,
  }
  .formulario {
   min-height: calc(100vh - 80px); /* 100% da tela menos a altura do header e do footer */
+}
+
+@media screen and (max-width: 1020px){
+  .formulario {
+    padding: 20px 8%;
+  }
 }

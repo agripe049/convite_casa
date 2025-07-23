@@ -24,7 +24,7 @@ function Presentes() {
           Clique aqui para ver nossa lista de presentes 
           <AiOutlineGift  className="icon-presente"/>
         </a>
-      </h1>
+      </h1> 
 
       <p>Ou, se preferir:</p>
       <h2>Nos presenteie com um Pix</h2>

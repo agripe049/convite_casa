@@ -1,6 +1,6 @@
 .interface p.monograma {
   font-family: 'Great Vibes', cursive;
-  font-size: 80px;
+  font-size: 50px;
   color: #fff; /* VERDE CHOCANTE para teste 2b4735 */
   margin-top: 150px;
 }
@@ -19,11 +19,12 @@ p.traco-home{
     border-bottom: 5px solid #fff;
 }
 
-h2.data-home{
+h2.data-home{ 
     color: #fff;
     text-align: center;
-    font-size: 30px;
-    margin-top: 80px;
+    font-size: 24px;
+    margin-top: -20px;
+    margin-bottom: 30px;
 }
 
 .topo-do-site {
@@ -62,7 +63,7 @@ h2.data-home{
         width: 200px;
     }
     h2.data-home{
-        font-size: 32px;
+        font-size: 24px;
         margin-top: 10  0px;
     }
     .topo-do-site{

@@ -15,12 +15,16 @@ function Home() {
             EMANUELY & LUIS MIGUEL
           </h1>
           <p className="traco-home"></p>
-          {/* Contador */}  
+          {/* Contador */}
           <h2 className="data-home">
             11 DE JANEIRO DE 2026
           </h2>
-          <a 
-            className="local" 
+          <p className="bem-vindo">
+            Bem-vindo(a) ao nosso site! <br />
+            Aqui você encontra a localização do casamento, nossa lista de presentes,<br /> confirmação de presença e todos os detalhes importantes para o grande dia!
+          </p>
+          <a
+            className="local"
             href="https://maps.app.goo.gl/cFLXiKa9piHuk3gG7?g_st=ac"
             target="_blank"
           >
