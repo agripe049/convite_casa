@@ -17,7 +17,7 @@ function AppRoutes() {
                 <Route path="/confirme-presenca" element={<ConfirmePresenca />}/>
                 <Route path="/presentes" element={<Presentes />}/>
                 <Route path="/nossa-historia" element={<NossaHistoria />}/>
-                <Route path="/presenca" element={<ListaConfirmados /> }/>
+                <Route path="/presenca-confirmada-864vbd34kjf43v" element={<ListaConfirmados /> }/>
             </Routes>
             <Footer />
         </Router>

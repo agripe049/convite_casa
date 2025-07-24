@@ -54,9 +54,6 @@ h2.data-home{
 
 
 @media screen and (max-width: 1020px){
-    .menuSlidebar{
-        display: none;
-    }
     .interface{
         flex-direction: column;
         align-items: center;

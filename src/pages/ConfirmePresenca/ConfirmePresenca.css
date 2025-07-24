@@ -72,8 +72,7 @@ button[type="submit"]:hover {
   background-color: #a37845; /* Dourado mais escuro */
 }
 
-form .label-acompanhantes,
- .label-evento {
+form .label-evento {
   color: #fff;
   font-size: 24px;
   font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
@@ -86,4 +85,4 @@ form .label-acompanhantes,
   .formulario {
     padding: 20px 8%;
   }
-}
+} 

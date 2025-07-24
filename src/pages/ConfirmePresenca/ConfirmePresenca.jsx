@@ -66,7 +66,7 @@ function ConfirmePresenca() {
             <select name="confirmacao" required>
               <option value="">Selecione uma opção</option>
               <option value="Sim">Sim</option>
-              <option value="Não">Não</option>
+              <option value="Não">Não</option> 
             </select>
 
             <button type="submit">Enviar</button>
