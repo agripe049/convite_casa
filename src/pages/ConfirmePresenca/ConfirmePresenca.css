@@ -46,14 +46,6 @@ p.faca-confirme{
   margin-top: 50px;
 }
 
-/* Estiliza todos os inputs e selects do formulário */
-form input,
-form select {
-  padding: 12px; /* Espaço interno dentro do campo */ 
-  border: 1px solid #ccc; /* Borda cinza clara */
-  border-radius: 6px; /* Cantos arredondados */
-}
-
 /* Estiliza o botão de envio do formulário */
 button[type="submit"] {
   background-color: #c79c60; /* Cor de fundo dourada */
@@ -85,9 +77,15 @@ form .label-evento {
 
 .input-name{
   font-size: 12px;
+  padding: 12px; /* Espaço interno dentro do campo */ 
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 6px; /* Cantos arredondados */
 }
 .input-confirme{
   font-size: 14px;
+  padding: 12px; /* Espaço interno dentro do campo */ 
+  border: 1px solid #ccc; /* Borda cinza clara */
+  border-radius: 6px; /* Cantos arredondados */
 }
 
 @media screen and (max-width: 1020px){
@@ -103,12 +101,6 @@ form .label-evento {
   p.faca-confirme{
     font-size: 20px;
     margin-bottom: -25px;
-  }
-  .input-confirme{
-    font-size: 12px;
-  }
-  .input-name{
-    font-size: 12px;
   }
   
 } 
