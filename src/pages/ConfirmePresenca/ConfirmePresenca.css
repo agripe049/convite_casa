@@ -49,7 +49,7 @@ p.faca-confirme{
 /* Estiliza todos os inputs e selects do formulário */
 form input,
 form select {
-  padding: 10px; /* Espaço interno dentro do campo */
+  padding: 12px; /* Espaço interno dentro do campo */
   font-size: 12px; /* Tamanho da fonte */
   border: 1px solid #ccc; /* Borda cinza clara */
   border-radius: 6px; /* Cantos arredondados */
