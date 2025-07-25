@@ -13,7 +13,7 @@ function Presentes() {
     setTimeout(() => setCopiado(false), 2000);
   };
 
-
+ 
   return (
     <div className="interface-presentes">
 
@@ -24,13 +24,13 @@ function Presentes() {
           Clique aqui para ver nossa lista de presentes 
           <AiOutlineGift  className="icon-presente"/>
         </a>
-      </h1> 
+      </h1>  
 
-      <p>Ou, se preferir:</p>
-      <h2>Nos presenteie com um Pix</h2>
+      <p className="preferir">Ou, se preferir:</p>
+      <h2 className="nos-presenteie">Nos presenteie com um Pix</h2>
       <img src={qrcode} alt="QR Code para presente de casamento" className="qr-code"/>
 
-      <p>Chave Pix (e-mail):</p>
+      <p className="chave-pix">Chave Pix (e-mail):</p>
       <br />
       <pre className="codigo-pix">{chavePix}</pre>
       <br />

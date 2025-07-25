@@ -43,12 +43,12 @@ function ConfirmePresenca() {
     }
   };
   
-  return (
+  return ( 
     <div>
       <section className="formulario">
         <div className="interface">
           <h2 className="titulo-confirmacao">
-            Confirmação de presença
+            CONFIRMAÇÃO DE PRESENÇA
           </h2>
           <br />
           <p className="texto-confirmacao">
@@ -60,15 +60,15 @@ function ConfirmePresenca() {
           </p>
           <p className="faca-confirme">Faça parte da nossa história de amor, confirme sua presença</p>
           <form ref={form} onSubmit={enviarEmail} className="form-confirme">
-            <input type="text" name="name" placeholder="Nome completo" required />
+            <input className="input-name" type="text" name="name" placeholder="Nome completo" required />
 
             <label className="label-evento">Você irá ao evento?</label>
-            <select name="confirmacao" required>
+            <select className="input-confirme" name="confirmacao" required>
               <option value="">Selecione uma opção</option>
               <option value="Sim">Sim</option>
               <option value="Não">Não</option> 
             </select>
-
+ 
             <button type="submit">Enviar</button>
           </form>
         </div>

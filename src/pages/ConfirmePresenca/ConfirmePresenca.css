@@ -10,7 +10,7 @@
   max-width: 500px;
 }
 /* Container interno com largura máxima */
-.interface { 
+.interface {  
   width: 100%; /* Ocupa 100% do espaço disponível */
   display: flex; /* Flexbox ativado */
   flex-direction: column; /* Organiza os elementos em coluna */
@@ -20,7 +20,7 @@
 /* Estiliza o título da confirmação */
 .titulo-confirmacao {
   font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
-  font-size: 40px; /* Tamanho grande */
+  font-size: 30px; /* Tamanho grande */
   text-align: center; /* Centraliza o texto */
   color: #fff; /* Cor marrom suave */
 }
@@ -29,7 +29,7 @@
 /* Estiliza o texto de introdução */
 .interface p {
   text-align: center; /* Centraliza o parágrafo */
-  font-size: 30px; /* Tamanho padrão */
+  font-size: 22px; /* Tamanho padrão */
   color: #fff; /* Cor de texto escura */
   margin-bottom: 10px; /* Espaço abaixo do parágrafo */
 
@@ -50,7 +50,7 @@ p.faca-confirme{
 form input,
 form select {
   padding: 10px; /* Espaço interno dentro do campo */
-  font-size: 16px; /* Tamanho da fonte */
+  font-size: 12px; /* Tamanho da fonte */
   border: 1px solid #ccc; /* Borda cinza clara */
   border-radius: 6px; /* Cantos arredondados */
 }
@@ -59,8 +59,11 @@ form select {
 button[type="submit"] {
   background-color: #c79c60; /* Cor de fundo dourada */
   color: #fff; /* Cor do texto branca */
-  font-size: 18px; /* Tamanho do texto */
-  padding: 12px; /* Espaço interno */
+  font-size: 14px; /* Tamanho do texto */
+  padding: 8px; /* Espaço interno */
+  display: block;
+  margin: 0 auto;
+  width: 150px;
   border: none; /* Remove borda */
   border-radius: 6px; /* Cantos arredondados */
   cursor: pointer; /* Mostra mãozinha ao passar por cima */
@@ -74,15 +77,29 @@ button[type="submit"]:hover {
 
 form .label-evento {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px; 
   font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
  }
  .formulario {
   min-height: calc(100vh - 80px); /* 100% da tela menos a altura do header e do footer */
 }
 
+.input-name{
+  font-size: 12px;
+}
+
 @media screen and (max-width: 1020px){
   .formulario {
     padding: 20px 8%;
+  }
+  .titulo-confirmacao {
+    font-size: 20px;
+  }
+  p.texto-confirmacao{
+    font-size: 18px;
+  }
+  p.faca-confirme{
+    font-size: 20px;
+    margin-bottom: -25px;
   }
 } 

@@ -1,5 +1,5 @@
-.interface-presentes{
-    min-height: calc(100vh - 80px); 
+.interface-presentes {
+  min-height: calc(100vh - 80px);
 }
 
 .interface-presentes {
@@ -9,30 +9,34 @@
   color: #333;
 }
 
-.interface-presentes h1 a{
-    color: #fff;
-    text-decoration: none;
-}
-.interface-presentes .link-lista{
-    margin-top: 40px;
+.interface-presentes h1 a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.interface-presentes p, h2 {
-    color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    margin-top: 10px;
+.interface-presentes .link-lista {
+  margin-top: 40px;
 }
+
+.interface-presentes p,
+h2 {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 .interface-presentes h1 a:hover {
   text-decoration: underline;
 }
 
-.link-lista a{
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
+.link-lista a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 24px;
 }
- 
+
 .qr-code {
   margin: 20px 0;
   max-width: 250px;
@@ -45,7 +49,7 @@
   display: inline-block;
   border-radius: 8px;
   margin-bottom: 10px;
-  font-size: 1.1em;
+  font-size: 12px;
   user-select: all;
 }
 
@@ -56,19 +60,63 @@
   padding: 10px 16px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 12px;
 }
 
 .botao-copiar:hover {
   background-color: #999;
 }
 
-.interface-presentes .titulo-presentes{
-    color: #fff;
-    font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
-    font-size: 40px;
+.interface-presentes .titulo-presentes {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  /* Fonte serifada elegante */
+  font-size: 30px;
 }
 
-.interface-presentes{
-    font-family: 'Playfair Display', serif; /* Fonte serifada elegante */
+.interface-presentes {
+  font-family: 'Playfair Display', serif;
+  /* Fonte serifada elegante */
+}
+
+.interface-presentes p.chave-pix {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1020px) {
+  .interface-presentes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interface-presentes .titulo-presentes {
+    font-size: 20px;
+  }
+
+  .link-lista a {
+    font-size: 16px;
+  }
+
+  .interface-presentes p.preferir {
+    font-size: 14px;
+  }
+
+  .interface-presentes h2.nos-presenteie {
+    font-size: 16px;
+  }
+
+  .qr-code {
+    margin: 20px 0;
+    max-width: 150px;
+    width: 50%;
+  }
+  .interface-presentes p.chave-pix {
+    font-size: 14px;
+  }
+  .codigo-pix {
+    font-size: 8px;
+  }
+  .botao-copiar {
+    font-size: 10px;
+  }
 }

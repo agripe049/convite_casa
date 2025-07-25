@@ -1,6 +1,6 @@
 .interface p.monograma {
   font-family: 'Great Vibes', cursive;
-  font-size: 50px;
+  font-size: 40px;
   color: #fff; /* VERDE CHOCANTE para teste 2b4735 */
   margin-top: 150px;
 }
@@ -8,27 +8,28 @@
 
 h1.titulo-home{
     color: #fff;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     padding: 0 20px; 
     word-break: break-word;
 }
 
 p.traco-home{
-    width: 200px;
-    border-bottom: 5px solid #fff;
+    width: 150px;
+    border-bottom: 4px solid #fff;
+    margin-top: -10px;
 }
 
 h2.data-home{ 
     color: #fff;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: -20px;
     margin-bottom: 30px;
 }
-.interface p.horario{
+.interface .horario{
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
     margin-top: -40px;
 }
 
@@ -45,31 +46,42 @@ h2.data-home{
     margin-top: 60px;
     color: #fff;
     gap: 8px;
-    font-size: 34px;
+    font-size: 24px;
 }
 
 .interface a.local:hover{
     color: #999;
 }
 
+.interface p.bem-vindo{
+    font-size: 25px;
+}
+
 
 @media screen and (max-width: 1020px){
     .interface{
-        flex-direction: column;
+        flex-direction: column; 
         align-items: center;
     }
     .interface p.monograma{
         margin-top: 10px;
+        font-size: 30px;
     }
     h1.titulo-home{
-        font-size: 38px;
+        font-size: 20px;
     }
     p.traco-home{
-        width: 200px;
+        width: 100px;
     }
     h2.data-home{
-        font-size: 24px;
+        font-size: 16px;
         margin-top: 10  0px;
+    }
+    .interface p.bem-vindo{
+        font-size: 18px;
+    }
+    .interface a.local{
+        font-size: 18px;
     }
     .topo-do-site{
         margin-top: 60px;
