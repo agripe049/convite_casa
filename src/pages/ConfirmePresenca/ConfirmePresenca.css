@@ -49,8 +49,7 @@ p.faca-confirme{
 /* Estiliza todos os inputs e selects do formulário */
 form input,
 form select {
-  padding: 12px; /* Espaço interno dentro do campo */
-  font-size: 12px; /* Tamanho da fonte */
+  padding: 12px; /* Espaço interno dentro do campo */ 
   border: 1px solid #ccc; /* Borda cinza clara */
   border-radius: 6px; /* Cantos arredondados */
 }
@@ -87,6 +86,9 @@ form .label-evento {
 .input-name{
   font-size: 12px;
 }
+.input-confirme{
+  font-size: 14px;
+}
 
 @media screen and (max-width: 1020px){
   .formulario {
@@ -102,4 +104,11 @@ form .label-evento {
     font-size: 20px;
     margin-bottom: -25px;
   }
+  .input-confirme{
+    font-size: 12px;
+  }
+  .input-name{
+    font-size: 12px;
+  }
+  
 } 
