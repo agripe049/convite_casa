@@ -9,7 +9,7 @@ function Home() {
       <div className="topo-do-site">
         <div className="interface">
           <p className="monograma">
-            LE
+            LE 
           </p>
           <h1 className="titulo-home">
             EMANUELY & LUIS MIGUEL

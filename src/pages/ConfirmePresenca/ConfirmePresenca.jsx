@@ -42,7 +42,7 @@ function ConfirmePresenca() {
       alert("Ocorreu um erro ao enviar a confirmação.");
     }
   };
-  
+   
   return ( 
     <div>
       <section className="formulario">
@@ -56,7 +56,7 @@ function ConfirmePresenca() {
             (que também foi convidado), coloca o nome deles junto. 
             Só pedimos que confirme apenas quem recebeu o convite. 
             Assim conseguimos organizar tudo direitinho pra receber 
-            vocês com muito carinho! 💚
+            vocês com muito carinho! 🤍
           </p>
           <p className="faca-confirme">Faça parte da nossa história de amor, confirme sua presença</p>
           <form ref={form} onSubmit={enviarEmail} className="form-confirme">

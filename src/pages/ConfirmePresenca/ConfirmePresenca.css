@@ -83,11 +83,12 @@ form .label-evento {
  .formulario {
   min-height: calc(100vh - 80px); /* 100% da tela menos a altura do header e do footer */
 }
-
+ 
 
 @media screen and (max-width: 1020px){
   .formulario {
     padding: 20px 8%;
+    margin-top: -100px;
   }
   .titulo-confirmacao {
     font-size: 20px;
