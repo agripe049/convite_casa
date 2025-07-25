@@ -84,9 +84,6 @@ form .label-evento {
   min-height: calc(100vh - 80px); /* 100% da tela menos a altura do header e do footer */
 }
 
-.input-name{
-  font-size: 12px;
-}
 
 @media screen and (max-width: 1020px){
   .formulario {
